@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<meta http-equiv="content-type" charset="utf-8">
+<html>
+<head>
+<link rel="stylesheet" href="C:\Users\81904\Documents\git\rep1\quis\quiz-style.css">
+<title>JavaScriptでクイズアプリを作る</title>
+
+  <script> 
+    window.onload = function() {
+      setInterval(function() {
+        var dd = new Date();
+        var days  = dd.getMonth + dd.getDay
+        document.getElementById("T1").innerHTML = days.toLocaleString();
+
+        var now = new Date();
+        var nowhour = now.getHours();
+        var nowminutes = now.getMinutes();
+        var nowseconds = now.getSeconds();
+    
+        var text = nowhour + "：" + nowminutes + "：" + nowseconds; 
+        document.getElementById("T2").innerHTML = text;
+      }, 1000);
+    }
+  </script> -->
+
+</head>
+<body>
+<h1>クイズアプリを作ってみた！！！</h1>
+
+<div class="quiz-main">
+
+</div>
+
+
+<div class="main-container">
+  <!--クイズのの表示-->
+  <div class="quis-main">
+    <h3>問題です</h3>
+      <h2 id="_question">ここに問題が表示されます。</h2>
+      <!--回答-->
+      <div class="quize">
+        <ul>
+          <li id="_ans1">回答１</li>
+          <li id="_ans2">回答２</li>
+          <li id="_ans3">回答３</li>
+        </ul>
+      </div>
+
+      <button type="button" id="_answer_1" onclick="Answer_Check(1)">回答1</button>
+      <button type="button" id="_answer_2" onclick="Answer_Check(2)">回答2</button>
+      <button type="button" id="_answer_3" onclick="Answer_Check(3)">回答3</button>
+
+      <div class="back-home">
+        <a href="C:\Users\81904\Documents\git\rep1\homepage-home\index.html" margin-top=30px><span>ホームに戻る</span></a>
+
+      </div>
+
+      <script type="text/javascript" src="main.js"></script>
+    
+  </div>
+
+  <!-- <div class="clock">
+    <p>DATE TIME</p>
+    <div id= "T1" class="wotch"></div>
+  </div>
+   -->
+  <div class="clock">
+    <script type="text/javascript" src="clock.js"></script>
+    <div id= "T1" class="wotch"></div>
+
+    <p>TIME</p>
+    <div id="T2">
+  </div>
+  
+
+
+  <div class="other">
+    <p>etc</p>
+    <!-- <div id= "T1"></div> -->
+  </div>
+
+
+</div>
+
+</body>
+</html>

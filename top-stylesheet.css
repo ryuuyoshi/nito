@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0
+  box-sizing: border-top;
+  }
+  ul {
+    list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: rgba(26, 19, 1, 0.657);
+  font-size: 20px;
+}
+  .header{
+  height: 100px;
+  background-color: rgb(242, 208, 114);
+  color: black;
+  font-family: Cambria, Cochin, Times, 'Times New Roman', serif;
+  }
+  .logo {
+   margin-top: 0;
+   display: inline-block;
+    }
+  .header img {
+  margin-top: 1px;
+  
+  }
+  h1 {
+    display: inline-block;
+    background-color: rgb(134, 89, 89);
+    width: 150px;
+    margin-right: 300px;
+    font-size: 52px;
+    font-family: 'Sacramento', cursive;
+
+    }
+.title p,a {
+  display: inline-block;
+  background-color: rgb(139, 132, 124);
+  width: 150px;
+  padding: 20px 30px: 
+  margin-right: 10px;
+  text-align: center;
+}
+.coment-sub {
+  text-align: center;
+  display: inline-block;
+  width: 200px;
+  background-color: rgb(221, 248, 126);
+}
+.container main {
+  margin: 0 100px;
+  background-color: rgb(225, 191, 141);
+  width: 12oopx;
+  height: 600px;
+} 
+.main-contents {
+  background-color: rgba(161, 134, 59,0.5);
+  box-sizing : relative;
+}
+.main-contents imag {
+  bottom: 0;
+  left: 0;
+  box-sizing: absolute;
+  display: inline-
+  }
