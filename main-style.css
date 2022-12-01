@@ -1,0 +1,189 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0
+  box-sizing: border-top;
+  line-height: 1.5rem;
+  }
+  ul {
+    list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: rgba(250, 229, 229, 1.0);
+  font-size: 22px;
+}
+.header {
+  width: auto;
+  height: 800px;
+  
+}
+.header-wrapper {
+  width: auto;
+  height: 100%;
+  background-image: url(sea-red-2_.jpg) ; ;
+  background-size: cover;
+  
+}
+  
+.header-up {
+  height: 50%;
+}
+.header-up img {
+  margin: 50px 0 0 50px;
+
+}
+.header-down {
+  height:300px;
+  width: suto;
+  /*background-color: rgb(231, 228, 226); */
+}
+
+.profile {
+  position: absolute;
+  top: 300px;
+  left: 50px;
+  letter-spacing: 0.5rem;
+  line-height: 1.5rem;
+}
+.head-logo {
+  width: 500px;
+  height: 150px;
+  margin: 50px suto;
+}
+.header-list {
+  height: 60px;
+  /*background-color: rgba(248, 143, 108, 0.924); */
+}
+.head-list{
+  display: flex;
+  flex-wrap:  wrap;
+
+
+}
+.head-list li {
+  width: 33%;
+  text-align: center;
+  /*background-color: bisque; */
+  font-size: 24px;
+  font-family: "Franklin Gothic",Arial, Helvetica, sans-serif;
+  color:rgb(250, 229, 229);
+  padding: 10px 0;
+}
+
+.main-wrapper {
+  height: 800px;
+  width : auato;
+  
+}
+.prof-field {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  width: auto
+}
+
+.main-left {
+  height: 800px;
+  flex: 1;
+  background-color: rgba(2581,211,137,0.9);
+}
+.main-mid {
+  flex: 7;
+  height: 800px;
+  background-color: rgba(250, 221, 137, 0.5);
+}
+.main-right {
+  height: 800px;
+  flex:1;
+  background-color: rgba(2581,211,137,0.9);
+}
+
+.mid-info {
+  display: flex;
+  padding: 100px 0px;
+}
+.info-img {
+  flex: 1;
+}
+.setsu {
+  margin-left: 90px;
+}
+.mid-img {
+  margin-left: 80px;
+}
+.info-text {
+  flex: 2;
+  margin: 30px 50px;
+}
+.text-form {
+  display: flex;
+
+}
+.list-column {
+  flex: 2;
+}
+.list-value {
+  flex: 7;
+}
+footer {
+  height: 150px;
+  width: auto;
+  background-color: rgba(232, 165, 19, 0.849);
+}
+
+.footer-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  width:auto;
+}
+.footer-left {
+  flex: 2;
+
+  height : 150px;
+  /*background-color: black;*/
+  color: white;
+}
+
+.footer-mid {
+  flex: 5;
+ 
+  height: 150px;
+ /*background-color: rgb(4, 3, 3); */
+}
+.footer-right{
+  flex: 2;
+  
+  height: 150ps;
+  /* background-color: black; */
+  color: white;
+}
+.footer-logo {
+  margin: 30px 0 0 30px;
+}
+.footer-rigrt-list li {
+  margin: 30px 30px;
+  text-align: right;
+
+  }
+}
+
+/*@media(max-width: 1000px){
+  .main-wrapper, .container {
+    height: 300px;
+    }
+    .header-list {
+      position: relative;
+      top: 1rem;
+      width: 100%;
+      }
+
+}
+
+@media(max-width: 670px){
+  .header-wrapper {
+    
+  }
+
+      
+}*/
+
