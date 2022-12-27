@@ -1,0 +1,123 @@
+             <div class="list-value">
+              <ul class="'acodion">
+                <li class="ditil"> 下肢障害・元うつ病<span class="view close">◆</span>
+                </li>
+                <li> <br></li>
+                <div class="whatis">
+                  <ul>
+                    <li>身体障害：関節リウマチ</li>
+                    <li>　　　　　アルコール性筋萎縮症</li>
+                    <li>　　　　　脊椎骨折で根中が曲がったまま</li>
+                    <li>精神障害：特に落ち込まなければ普段は</li>
+                    <li>　　　　　何も変わらないんだけどなー</li>
+                  </ul>
+                </div>
+                <br>
+                <li class="ditil"> 重く考え過ぎ<span>+</span></li>
+                <div class="whatis" >
+                  <ul>
+                    <li>　　考え込むと最下層まで落ち込む<span>+</span></li>
+                    <li>　　んで、倦怠感に襲われると</li>
+                    <li>　　ま、すぐ立ち直るけんだけどね</li>
+                    <li c></li>
+                  </ul>
+                </div>
+                <br>
+                <li class="ditil"> スポーツ観戦<span>+</span></li>
+                <div class="whatis">
+                  <ul>
+                    <li>ボクシング大好き</li>
+                    <li>野球もサッカーも（</li>
+                    <li>iii</li>
+                  </ul>
+                </div>
+                <br>
+                <li class="ditil"> パソコンいじり<span>+</span></li>
+                <div >
+                  <ul class="whatis">
+                    <li>jjj</li>
+                    <li>kk</li>
+                    <li>lll</li>
+                  </ul>
+                </div>
+                <br>
+                <li class="ditil">漬物と一部野菜<span>+</span></li>
+                <div >
+                  <ul class="whatis">
+                    <li>漬物系は全部しょぱすぎ</li>
+                    <li>紅しょうが、高菜ももちろんNG</li>
+                    <li>なす、レンコン　</li>
+                  </ul>
+                </div>
+              </ul>
+            </div>
+          </div>
+          </div>  
+          
+            
+            
+          </div>
+        </div>
+        <div class="test">
+
+          <p>ここを押す</p>
+          <p class="go">これは作動するようだ</p>
+        </div>
+      
+
+
+
+    .main-left {
+  display: block;
+  height: 100%;
+  width: 1100px;
+  margin: 0 auto;
+  background-color: beige;
+  flex: 4;
+}
+
+
+.main-right {
+  height: 100px;
+  flex: 5;
+  background-color: rgba(2581,211,137,0.9);
+  display: flex;
+}
+.main-right {
+  height: 1000px;
+  flex: 5; 
+  background-color: rgba(2581,211,137,0.9);
+}
+
+.mid-info {
+  display: flex;
+  padding: 100px 0px;
+}
+.info-img {
+  flex: 0.5;
+}
+.setsu {
+  margin-left: 90px;
+}
+.mid-img {
+  margin-left: 80px;
+}
+.info-text {
+  flex: 4;
+
+}
+
+
+.list-value {
+  flex: 5;
+}
+.list-value li {
+  list-style-type: none;
+}
+.whatis {
+  display: none; 
+}
+
+
+
+  
