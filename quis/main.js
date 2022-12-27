@@ -81,11 +81,11 @@ let Question = [
     // 数字が 1ケタのとき、「0」を加えて 2ケタにする
     var twoDigit =function(num){
       　     var digit
-           if( num < 10 )
-            { digit = "0" + num; }
-           else { digit = num; }
-           return digit;
-     }
+          if( num < 10 )
+          { digit = "0" + num; }
+          else { digit = num; }
+          return digit;
+    }
     // 曜日を表す各文字列の配列
     var weeks = new Array("Sun","Mon","Thu","Wed","Thr","Fri","Sat");
   

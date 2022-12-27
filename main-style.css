@@ -4,7 +4,7 @@ body {
   box-sizing: border-top;
   line-height: 1.5rem;
   }
-  ul {
+ul {
     list-style-type: none;
 }
 a {
@@ -14,7 +14,7 @@ a {
 }
 .header {
   width: auto;
-  height: 800px;
+  height: 100px;
   
 }
 .header-wrapper {
@@ -44,7 +44,7 @@ a {
   left: 50px;
   letter-spacing: 0.5rem;
   line-height: 1.5rem;
-}
+} 
 .head-logo {
   width: 500px;
   height: 150px;
@@ -69,62 +69,131 @@ a {
   color:rgb(250, 229, 229);
   padding: 10px 0;
 }
+main {
+  background-color:  rgba(2581,211,137,0.9);
+  height: 1000px; 
+}
+
+
 
 .main-wrapper {
-  height: 800px;
-  width : auato;
-  
-}
-.prof-field {
-  display: flex;
-  flex-wrap: wrap;
-  height: 100%;
-  width: auto
-}
+  height: 700px;
+  width : 100%;
+ 
+ /* display: flex; 
+  flex-wrap: wrap; :*/
 
-.main-left {
-  height: 800px;
-  flex: 1;
-  background-color: rgba(2581,211,137,0.9);
 }
-.main-mid {
-  flex: 7;
-  height: 800px;
-  background-color: rgba(250, 221, 137, 0.5);
+.main-left {
+  width: 30%;
+  margin: 50px 0 0 50px;
 }
 .main-right {
-  height: 800px;
-  flex:1;
-  background-color: rgba(2581,211,137,0.9);
-}
-
-.mid-info {
+  width: 70%;
   display: flex;
-  padding: 100px 0px;
+  flex-wrap: wrap;
+  margin: 0 ato;
+  text-align: left;
+
 }
-.info-img {
+.info-text  {
+  display: block;
   flex: 1;
+  margin: 0 auto;
 }
-.setsu {
-  margin-left: 90px;
-}
-.mid-img {
-  margin-left: 80px;
-}
-.info-text {
-  flex: 2;
-  margin: 30px 50px;
-}
-.text-form {
-  display: flex;
-
-}
-.list-column {
-  flex: 2;
+.info-text  p {
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 25px;;
+  color: rgb(9, 24, 108);
 }
 .list-value {
-  flex: 7;
+  flex: 3;
+  display: block;
+  margin:0;
 }
+.list-value p {
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 25px;;
+  color: rgb(9, 24, 108);
+}
+.view {
+  margin-left: 20px; 
+  position: absolute;
+  right: 250px;
+  color: rgb(22, 71, 49);
+  font-size :15px;
+}
+
+.center-top {
+  background-color: bisque;
+  margin: 0 auto;
+  width: 1000px;
+  height: 150px;
+  display: inline-block;
+  display: flex;
+}
+.center-top  p {
+  margin: 80px 0 0 350px;
+  font-size: 25px;
+  font-weight: bolder;
+  color: red;
+
+}
+.center {
+  background-color: bisque;
+  margin: 0 auto;
+  width: 1000px;
+  height: 550px;
+  display: flex;
+  
+}
+.center-2 {
+  background-color: bisque;
+  margin: 0 auto;
+  width: 1000px;
+  height: 150px;
+  display: block;
+ /* display: flex;*/
+  
+}
+
+.whatis {
+  display: none;
+}
+
+.test {
+  display: inline-block;
+  text-align: center;
+  margin-left: 200px;
+}
+.test p:child(0) {
+  display: block;
+}
+
+.go {
+  margin-left: 200px;
+  display: none;
+}
+
+.mei {
+  display: none;
+  color:rgb(9, 24, 108)
+}
+
+.view {
+  font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
 footer {
   height: 150px;
   width: auto;
