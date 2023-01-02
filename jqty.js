@@ -1,32 +1,22 @@
 
 $(function(){
     /* ここにjQueryのコードを書く */
-  $(".test").click(function(){
-    $(".go").fadeIn(600);
-  });
-  
-  $(".setsu").click(function(){
-    $(".mei").fadeIn();
-  });
-  
 
+  $(".pick").click(function(){
+      var $answer = $(this).find(".answer");
 
-
-  $(".acodion").click(function(){
-      var $whatis = $(this).find(".whatis");
-      var $view = $(this).find(".view");
-
-    if($(".whatis").hasClass("close")){
-      $whatis.slideUp();
-      $whatis.removeClass("close");
-      $view.text("◆");
+    if($answer.hasClass("close")){
+      $answer.slideUp();
+      $(".anawer").removeClass("close");
+      $(this).find("span").text("*");
 
       } else {
-      $whatis.slideDown();
-      $whatis.addClass("close");
-      $view.text("◇");
+      $answer.slideDown();
+      $answer.addClass("close");
+      $(this).find("span").text("-");
       };  
-    
+    });
+    $(".main-under").click(function(){
+      (".answer-2").siidedown();
   });
-
 });
